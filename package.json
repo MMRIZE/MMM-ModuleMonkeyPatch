@@ -1,0 +1,23 @@
+{
+  "name": "mmm-modulemonkeypatch",
+  "version": "1.0.0",
+  "description": "MagicMirror module to make monkeypatching other module",
+  "main": "MMM-ModuleMonkeyPatch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMRIZE/MMM-ModuleMonkeyPatch.git"
+  },
+  "keywords": [
+    "MagicMirror",
+    "MonkeyPatch"
+  ],
+  "author": "eouia0819@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MMRIZE/MMM-ModuleMonkeyPatch/issues"
+  },
+  "homepage": "https://github.com/MMRIZE/MMM-ModuleMonkeyPatch#readme"
+}
