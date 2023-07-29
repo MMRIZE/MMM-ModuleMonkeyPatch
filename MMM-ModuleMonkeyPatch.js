@@ -1,21 +1,8 @@
 Module.register("MMM-ModuleMonkeyPatch", {
   defaults: {
     patches: [
-      {
-        module: "calendar",
-        method: "getDom",
-        patch: function (original, args) {
-          const ret = original(args)
-          // do something
-          return ret
-        }
-      },
     ]
-  },
-
-  start: function () {
-    this.originals = new WeakMap()
-  },
+  }, 
 
   notificationReceived: function (notification, payload, sender) {
     if (notification === "ALL_MODULES_STARTED") {
