@@ -1,2 +1,2 @@
 # MMM-ModuleMonkeyPatch
-MagicMirror module to make monkeypatching for other module.
+MagicMirror module to make monkeypatching other module.
